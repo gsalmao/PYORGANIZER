@@ -46,7 +46,7 @@ elif answer == 5:
     moveToDirectory(('.exe', '.msi',  '.msm', '.msp'), "Installers")
 elif answer == 6:
     createFolder("Zipped")
-    moveToDirectory((',rar', '.zip', '.tar', '.gz', '.7z'), "Zipped")
+    moveToDirectory(('.rar', '.zip', '.tar', '.gz', '.7z'), "Zipped")
 elif answer == 7:
     createFolder("Images")
     moveToDirectory(('.jpg', '.png', '.bmp', '.gif', '.tif', '.tiff'), "Images")
